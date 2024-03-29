@@ -1,0 +1,51 @@
+@media only screen and (min-width: 768px) {
+  .hrline-desktop{
+    display: block;
+  }
+  .nav-toggle {
+    display: none;
+  }
+  .header-grid-container {
+    grid-template-columns: 1fr 2fr;
+  }
+  .navbar {
+    position:relative ;
+    display: flex ;
+    flex-direction: row;
+    justify-content: end;
+    background: none;
+    opacity: 1;
+    top: 0;
+    right: .5em;
+    width: 100%;
+    height: 100% ;
+    animation: none;
+  }
+  .navbar a {
+    margin-bottom: 0
+  }
+  .review-post{
+    width: 45%;
+  }
+   .backdrop{
+    display: none !important;
+   }
+}
+
+@media only screen and (max-width: 950px) {
+  .price-content-title{
+    color: var(--main-color);
+  }
+  .price-right,
+  .price-left{
+    background: var(--main-color);
+    color: var(--secondary-color);
+  }
+  .price-container-bg{
+    height: 100%;
+  }
+  .price-middle-title {
+    font-size: inherit;
+    padding: 1em 0;
+  }
+}
